@@ -722,7 +722,7 @@ aside.cta-quote span.quote {
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
-  padding: 50px 20px;   /* reduziert 2026 */
+  padding: 50px 55px;   /* Update 2026 ?? */
   text-align: center;
 }
 .portfolio-carousel .item .portfolio-image {
@@ -771,6 +771,14 @@ aside.cta-quote span.quote {
   -webkit-transition: all 0.5s;
   -moz-transition: all 0.5s;
   transition: all 0.5s;
+}
+@media only screen and (max-width: 1024px) /* Ergänzt 2026 für schmalere Pfeile */
+{
+  .portfolio-carousel .owl-controls .owl-prev,
+  .portfolio-carousel .owl-controls .owl-next {
+    width: 30px;
+    font-size: 20px !important;
+  }
 }
 .portfolio-carousel .owl-controls .owl-prev:hover,
 .portfolio-carousel .owl-controls .owl-next:hover {
