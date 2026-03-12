@@ -508,7 +508,7 @@ aside.cta-quote span.quote {
 }
 .testimonials .testimonials-carousel .item {
   padding: 0;
-  min-height: 600px;   /* <-- ergänzt 2026 */
+  min-height: 550px;   /* <-- ergänzt 2026 */
 }
 .testimonials .testimonials-carousel .item p.experience {
   margin-bottom: 15px;
