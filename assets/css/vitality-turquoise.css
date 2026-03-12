@@ -936,6 +936,9 @@ aside.cta-quote span.quote {
     margin: 1%;
 	font-size: 14px;
   }
+  #portfoliolist .portfolio .portfolio-wrapper .caption .caption-text {
+    padding: 4px;
+	
   #portfoliolist .text-category {
     font-size: 10px;
   }
