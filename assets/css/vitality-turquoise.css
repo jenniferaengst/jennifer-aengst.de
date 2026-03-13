@@ -725,6 +725,12 @@ aside.cta-quote span.quote {
   padding: 50px 55px;   /* 2026 */
   text-align: center;
 }
+
+@media only screen and (max-width: 767px) {
+  .portfolio-carousel .item {
+    padding: 50px 20px;
+  }
+}
 .portfolio-carousel .item .portfolio-image {
   margin-top: 50px;
 }
@@ -962,7 +968,7 @@ aside.cta-quote span.quote {
 /* Mobiltelefon: feste Höhe - 2026*/
 @media only screen and (max-width: 767px) {
   #portfoliolist .portfolio .portfolio-wrapper .caption {
-    height: 90px;
+    height: 95px;
   }
 }
 
