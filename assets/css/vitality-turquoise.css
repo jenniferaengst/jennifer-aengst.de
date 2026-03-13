@@ -576,7 +576,7 @@ aside.cta-quote span.quote {
 @media (min-width: 768px) {
   .testimonials .testimonials-carousel .item {
     padding: 0 100px;
-	min-height: 700px;  /* <-- ergänzt 2026 */
+	min-height: 620px;  /* <-- ergänzt 2026 */
   }
   .testimonials .testimonials-carousel .owl-controls .owl-prev,
   .testimonials .testimonials-carousel .owl-controls .owl-next {
@@ -722,7 +722,7 @@ aside.cta-quote span.quote {
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
-  padding: 50px 55px;   /* Update 2026 ?? */
+  padding: 50px 55px;   /* 2026 */
   text-align: center;
 }
 .portfolio-carousel .item .portfolio-image {
@@ -962,7 +962,7 @@ aside.cta-quote span.quote {
 /* Mobiltelefon: feste Höhe - 2026*/
 @media only screen and (max-width: 767px) {
   #portfoliolist .portfolio .portfolio-wrapper .caption {
-    height: 100px;
+    height: 90px;
   }
 }
 
