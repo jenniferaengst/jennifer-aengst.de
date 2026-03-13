@@ -508,7 +508,7 @@ aside.cta-quote span.quote {
 }
 .testimonials .testimonials-carousel .item {
   padding: 0;
-  min-height: 450px;   /* <-- ergänzt 2026 */
+  min-height: 600px;   /* <-- ergänzt 2026 */
 }
 .testimonials .testimonials-carousel .item p.experience {
   margin-bottom: 15px;
@@ -576,7 +576,7 @@ aside.cta-quote span.quote {
 @media (min-width: 768px) {
   .testimonials .testimonials-carousel .item {
     padding: 0 100px;
-	min-height: 620px;  /* <-- ergänzt 2026 */
+	min-height: 600px;  /* <-- ergänzt 2026 */
   }
   .testimonials .testimonials-carousel .owl-controls .owl-prev,
   .testimonials .testimonials-carousel .owl-controls .owl-next {
@@ -722,11 +722,12 @@ aside.cta-quote span.quote {
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
-  padding: 50px 55px;   /* 2026 */
+  padding: 50px 55px;
   text-align: center;
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 767px) /* 2026 schmalerer Rand auf Telefonen */
+{
   .portfolio-carousel .item {
     padding: 50px 20px;
   }
