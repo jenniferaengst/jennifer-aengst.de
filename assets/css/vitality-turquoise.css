@@ -1098,3 +1098,16 @@ footer {
     padding-left: 100px;
   }
 }
+/* Projektbeispiele: untereinander unter 1600px - 2026 */
+@media only screen and (max-width: 1599px) {
+  .portfolio-carousel .col-md-4,
+  .portfolio-carousel .col-md-8 {
+    width: 100%;
+    float: none;
+    left: 0;
+    right: 0;
+  }
+  .portfolio-carousel .col-md-8 {
+    display: block;
+  }
+}
