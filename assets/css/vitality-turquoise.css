@@ -1094,7 +1094,7 @@ footer {
 }
 /* Tablet: Padding links für #thatsme - 2026 */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  #thatsme .container {
+  #thatsme .content-row {
     padding-left: 100px;
   }
 }
