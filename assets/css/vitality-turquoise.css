@@ -1092,3 +1092,9 @@ footer {
 .btn-full-width:focus {
   color: white;
 }
+/* Tablet: Padding links für #thatsme - 2026 */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  #thatsme .container {
+    padding-left: 30px;
+  }
+}
