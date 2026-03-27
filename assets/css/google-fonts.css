@@ -3,7 +3,7 @@
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 100 900;
-  src: url('../fonts/Roboto-VariableFont_wdth,wght.ttf') format('truetype');
+  src: url('../fonts/Roboto-VariableFont.ttf') format('truetype');
 }
 
 /* raleway - variable font */
@@ -11,5 +11,5 @@
   font-family: 'Raleway';
   font-style: normal;
   font-weight: 100 900;
-  src: url('../fonts/Raleway-VariableFont_wght.ttf') format('truetype');
+  src: url('../fonts/Raleway-VariableFont.ttf') format('truetype');
 }
