@@ -139,6 +139,9 @@ body {
   font-size: 18px;
   font-weight: 300;
 }
+.highlight {          /* <-- neu für leichte Fettschrift */
+  font-weight: 500;
+}
 a {
   color: #41c4ab;
   -webkit-transition: all 0.5s;
@@ -181,6 +184,9 @@ h6 {
   h2 {
     font-size: 44px;
   }
+}
+h4 {
+  font-size: 18px;
 }
 hr {
   max-width: 100px;
