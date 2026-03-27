@@ -523,7 +523,7 @@ aside.cta-quote span.quote {
   margin-left: 22px;
 }
 .testimonials .testimonials-carousel .item .testimonial-info {
-  margin-bottom: 30px;
+  margin-bottom: 15px; /* <-- zuvor 30px */
 }
 .testimonials .testimonials-carousel .item .testimonial-info .testimonial-img {
   display: inline-block;
